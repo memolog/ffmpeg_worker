@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "typeRoots": ["../../node_modules/@types"],
+    "types": ["jest"],
+    "lib": ["esnext", "dom"],
+    "allowJs": true,
+    "noEmit": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "jsx": "react",
+    "jsxFactory": "h",
+  },
+  "include": ["./**/*"],
+}
