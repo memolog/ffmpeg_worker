@@ -1,0 +1,28 @@
+body {
+  background: white;
+  color: #444;
+}
+
+.converted-container {
+  margin: 1em 0;
+}
+
+video {
+  max-width: 300px;
+  max-height: 200px;
+  border: 10px solid #ccc;
+}
+
+.stdout {
+  color: green;
+  font-family: monospace;
+  margin: 1em 0;
+  background: black;
+  padding: 1em;
+  width: 650px;
+  overflow: scroll;
+}
+
+.stdout > div {
+  white-space: nowrap;
+}

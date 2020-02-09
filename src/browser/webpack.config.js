@@ -15,7 +15,7 @@ const config = {
   ],
   mode: "development",
   entry: {
-    index: [path.resolve(__dirname, "./ts/index.ts")],
+    index: [path.resolve(__dirname, "./ts/index.tsx")],
   },
   output: {
     filename: "js/[name].js",
